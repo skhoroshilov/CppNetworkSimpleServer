@@ -97,7 +97,7 @@ int SH_Send (SOCKET s, const char *buf, int len, int flags)
 }
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main ()
 {
 	const std::string sOptoponFile = "options.cfg";
 	const std::string sServerAddress = "127.0.0.1";
